@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="github" fetch="ssh://git@github.com" />
+    <remote name="openembedded" fetch="git://git.openembedded.org" />
+
+    <project path="oe-core" name="openembedded-core" remote="openembedded" revision="jethro" />
+    <project path="oe-core/bitbake" name="bitbake" remote="openembedded" revision="1.28" />
+
+    <project path="meta-raspberrypi" name="aswild/meta-raspberrypi" remote="github" revision="master" />
+    <project path="meta-newbs" name="aswild/meta-newbs" remote="github" revision="master" />
+</manifest>
