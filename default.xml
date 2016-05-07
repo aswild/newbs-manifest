@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="github" fetch="ssh://git@github.com" />
+    <remote name="github" alias="origin" fetch="ssh://git@github.com" />
     <default remote="github"
              revision="master"
              sync-c="false"
              sync-j="4" />
 
-    <project path="manifest" name="aswild/newbs-manifest" revision="testing" />
+    <project path="manifest" name="aswild/newbs-manifest" />
 
     <project path="oe-core" name="aswild/openembedded-core" />
     <project path="oe-core/bitbake" name="aswild/bitbake" />
