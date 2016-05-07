@@ -6,7 +6,7 @@
              sync-c="false"
              sync-j="4" />
 
-    <project path="manifest" name="aswild/newbs-manifest" />
+    <project path="manifest" name="aswild/newbs-manifest" revision="testing" />
     <repo-hooks in-project="aswild/newbs-manifest" enabled-list="upstream-remotes" />
 
     <project path="oe-core" name="aswild/openembedded-core" />
