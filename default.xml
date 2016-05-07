@@ -6,8 +6,11 @@
              sync-c="false"
              sync-j="4" />
 
-    <project path="oe-core" name="aswild/openembedded-core" revision="jethro" />
-    <project path="oe-core/bitbake" name="aswild/bitbake" revision="1.28-archlinux" />
+    <project path="manifest" name="aswild/newbs-manifest" />
+    <repo-hooks in-project="manifest/hooks" enabled-list="upstream-remotes" />
+
+    <project path="oe-core" name="aswild/openembedded-core" />
+    <project path="oe-core/bitbake" name="aswild/bitbake" />
 
     <project path="meta-python3-compat" name="aswild/meta-python3-compat" />
 
