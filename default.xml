@@ -7,7 +7,7 @@
              sync-j="4" />
 
     <project path="manifest" name="aswild/newbs-manifest" />
-    <repo-hooks in-project="manifest/hooks" enabled-list="upstream-remotes" />
+    <repo-hooks in-project="manifest" enabled-list="upstream-remotes" />
 
     <project path="oe-core" name="aswild/openembedded-core" />
     <project path="oe-core/bitbake" name="aswild/bitbake" />
