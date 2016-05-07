@@ -3,6 +3,7 @@
     <remote name="github" alias="origin" fetch="ssh://git@github.com" />
     <default remote="github"
              revision="master"
+             dest-branch="master"
              sync-c="false"
              sync-j="4" />
 
