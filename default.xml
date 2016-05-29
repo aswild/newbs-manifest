@@ -3,17 +3,17 @@
     <remote name="github" alias="origin" fetch="ssh://git@github.com" />
     <default remote="github"
              revision="master"
-             dest-branch="master"
              sync-c="false"
              sync-j="4" />
 
     <project path="manifest" name="aswild/newbs-manifest" />
 
-    <project path="oe-core" name="aswild/openembedded-core" />
-    <project path="oe-core/bitbake" name="aswild/bitbake" />
+    <project path="oe-core" name="aswild/openembedded-core" revision="python3" />
+    <project path="oe-core/bitbake" name="OpenEmbedded/bitbake" revision="python3" />
 
     <project path="meta-python3-compat" name="aswild/meta-python3-compat" />
 
-    <project path="meta-raspberrypi" name="aswild/meta-raspberrypi" />
+    <!-- <project path="meta-raspberrypi" name="aswild/meta-raspberrypi" /> -->
+    <project path="meta-raspberrypi" name="agherzan/meta-raspberrypi" />
     <project path="meta-newbs" name="aswild/meta-newbs" />
 </manifest>
