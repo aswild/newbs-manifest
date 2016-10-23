@@ -8,8 +8,8 @@
 
     <project path="manifest" name="aswild/newbs-manifest" />
 
-    <project path="oe-core" name="aswild/openembedded-core" revision="python3" />
-    <project path="oe-core/bitbake" name="OpenEmbedded/bitbake" revision="python3" />
+    <project path="oe-core" name="OpenEmbedded/openembedded-core" revision="morty" />
+    <project path="oe-core/bitbake" name="OpenEmbedded/bitbake" revision="1.32" />
 
     <project path="meta-python3-compat" name="aswild/meta-python3-compat" />
 
